@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/175d3f9fe8.js" crossorigin="anonymous"></script>
+
+    <title>The Essex Studios</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        .accordion {
+            position: absolute;
+            top: 25%;
+            left: 25%;
+            right: 25%;
+        }
+        
+        .card {
+            background-color: #6B70A7;
+        }
+        
+        .card button {
+            color: #e8491d;
+            font-weight: bold;
+        }
+        
+        .collapse {
+            color: white;
+            background-color: #e8491d;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <header>
+            <div class="container">
+                <div id=branding>
+                    <h1><span class="highlight">The Essex Studios</span></h1>
+                </div>
+                <nav>
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="artwalks.html">Artwalks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="artists.html">Artists</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="press.html">Press</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="text-center">
+                                <a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalLoginForm">
+                          Log In</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header>
+        <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header text-center">
+                        <h4 class="modal-title w-100 font-weight-bold">Sign in</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                    </div>
+                    <div class="modal-body mx-3">
+                        <div class="md-form mb-5">
+                            <i class="fas fa-envelope prefix grey-text"></i>
+                            <input type="email" id="defaultForm-email" class="form-control validate">
+                            <label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
+                        </div>
+
+                        <div class="md-form mb-4">
+                            <i class="fas fa-lock prefix grey-text"></i>
+                            <input type="password" id="defaultForm-pass" class="form-control validate">
+                            <label data-error="wrong" data-success="right" for="defaultForm-pass">Your password</label>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button class="btn btn-default">Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+               Basement
+                  </button>
+                        </h2>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-8">
+                                    <ul style="list-style-type:none">
+                                        <li>Carothers, Annette</li>
+                                        <li> Gilsdorf, Mark</li>
+                                        <li> Lean Life Fitness </li>
+                                        <li>Lighthouse Youth Services </li>
+                                        <li> Lipps, Tony </li>
+                                        <li> Queen, Jonathan </li>
+                                        <li> RTS Apparel/RTS Barbell </li>
+                                        <li> Risk To Success </li>
+                                    </ul>
+                                </div>
+                                <div class="col-4">
+                                    <ul style="list-style-type:none">
+                                        <li> B-1</li>
+                                        <li> B-5</li>
+                                        <li> B-7</li>
+                                        <li> B-6</li>
+                                        <li> B-2</li>
+                                        <li> B-3</li>
+                                        <li> B-4</li>
+                                        <li>C & D</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    First Floor
+                  </button>
+                        </h2>
+                    </div>
+                    ​
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-8">
+
+
+                                    <ul style="list-style-type:none">
+
+
+                                        <li>Ardeil, Erika</li>
+                                        <li> Art Academy</li>
+                                        <li> Art Circle </li>
+                                        <li>Baxter, Barbara</li>
+                                        <li>Bock, Anne Marie </li>
+                                        <li> Breetz, Clair</li>
+                                        <li>Brennan, Tom </li>
+                                        <li>Brett, Roxanne </li>
+                                        <li>Buck, Ken-Landon </li>
+                                        <li> Button, Gail</li>
+                                        <li>Campbell, Cranford </li>
+                                        <li> Carley, Glen</li>
+                                        <li> </li>
+                                        <li> </li>
+                                        <li> </li>
+                                        <li> </li>
+                                        <li> </li>
+                                        <li> </li>
+                                        <li> </li>
+                                        <li> </li>
+                                        Carothers, Thomas A Caswell-Pearce, Sara 178 Cassell, Nancy 161, 176 Chapman, Laura 102 Cincy Shirts 129 Curreri, Amanda 145 Cincinnati Book Arts Society 164 Davis, David 174 Debevec, Diane 130 DIY Printing 186, 188 Duke, Margaret 103 Fabe, Carolyn 128
+                                        Fisher, Tommy 135 Fletcher, Llewelynn 155 Fox, Deborah 152 Goodson, Sherry 122 Graumlich, Claudette 104 Gray, Tonya 138 Grondin, Tim 136 Harley, Lauren 174 Heimann, Trent 114 Hetzel, Rachael 110 Hug, Brenda 122
+                                        Huttinger, Peter 141 Isaacs, Gay 122 Jamison, Rita 168 Kelly, Karen 125 Kelly, Kevin 170 Keltch, Brent 181 Kent, Aaron 188 Langdon, Abby 108 Lemon, Kris 172 Lucky Cat Museum 150 Mangat, Gurdev 122 May, James W.
+                                        E Mazzola, Randall 180 ~open 133 Meade, Chris 158, 160 Merrick, Hank K Mincy, Katrina D Missio Dei Church 107 Mullaney, Sean 140 Pichler, Susan 122 Prince, Mark 156 Prince, Risa Sreden 156 Reblando, Nicole 150 Reese
+                                        Jr, Gregory 105 Robertson, Micha (Lucky Cat Museum) 150 Rowen, Barry 142 Rucker, Carol 105 Sage, Mary Jo 122 Smith, Betty 122 Springer, Connie 122 Squeri, Sarah 190 Stadtmiller, Dave 146 Trauth, Barb 144 Van Landuyt,
+                                        Jamie 132 Walker, Mike 158, 160 Wycoff, Suzi 122 Young, Barb 104
+                                    </ul>
+
+
+                                </div>
+                                <div class="col-4">
+                                    <ul style="list-style-type:none">
+                                        <li>148</li>
+                                        <li>124</li>
+                                        <li>122</li>
+                                        <li>182</li>
+                                        <li>167</li>
+                                        <li>122</li>
+                                        <li>106</li>
+                                        <li>112</li>
+                                        <li>128</li>
+                                        <li>122</li>
+                                        <li>100</li>
+                                        <li>162</li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Second Floor
+                  </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-8">
+                                    <ul style="list-style-type:none">
+                                        <li>Carothers, Annette</li>
+                                        <li> Gilsdorf, Mark</li>
+                                        <li> Lean Life Fitness </li>
+                                        <li>Lighthouse Youth Services </li>
+                                        <li> Lipps, Tony </li>
+                                        <li> Queen, Jonathan </li>
+                                        <li> RTS Apparel/RTS Barbell </li>
+                                        <li> Risk To Success </li>
+                                    </ul>
+                                </div>
+                                <div class="col-4">
+                                    <ul style="list-style-type:none">
+                                        <li> B-1</li>
+                                        <li> B-5</li>
+                                        <li> B-7</li>
+                                        <li> B-6</li>
+                                        <li> B-2</li>
+                                        <li> B-3</li>
+                                        <li> B-4</li>
+                                        <li>C & D</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    </div>
+
+</body>
+
+</html>
